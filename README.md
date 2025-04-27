@@ -52,6 +52,28 @@ Değişiklikleri commit edin ✔️ (git commit -m 'Yeni Özellik Eklendi')
 
 Push yapın 📤 (git push origin feature/YeniOzellik)
 
+
+---
+
+# 📢 Küçük Bilgi:
+- İstersen ileride AutoMapper ve FluentValidation'ı da projeye ekleyince README'yi küçük bir güncelleyebilirsin.
+- GitHub sayfanda README çok etkili bir ilk izlenim bırakır, kesinlikle yüklemen iyi oldu!
+
+---
+
+# 🚀 Şimdi Ne Yapabilirsin?
+
+- Bu **README.md** içeriğini kopyala.
+- Github reposunun kök dizinine `README.md` dosyası olarak yapıştır.
+- Commit ve Push yap.
+- Profilinde projen çok daha profesyonel gözükecek!
+
+---
+
+💬 İstersen bir sonraki adım olarak sana **AutoMapper** ve **FluentValidation** entegrasyonu da hazırlayabilirim!  
+İster misin? 🎯 🚀 
+
+
 Pull Request açın 🚀
 
 

@@ -7,11 +7,11 @@ using BookStoreApp.Application.DTOs.Book;
 
 namespace BookStoreApp.Application.Services.Interfaces
 {
-    interface IBookService
+    public interface IBookService
     {
-        Task<List<BookCreateDto>> GetAllAsync();
-        Task<BookCreateDto> GetByIdAsync(int id);
-        Task<BookCreateDto> CreateAsync(BookCreateDto bookDto);
+        Task<List<BookDto>> GetAllAsync();
+        Task<BookDto> GetByIdAsync(int id);
+        Task<BookDto> CreateAsync(BookCreateDto bookDto);
         Task<bool> UpdateAsync(int id, BookCreateDto bookDto);
         Task<bool> DeleteAsync(int id);
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookStoreApp.Application.DTOs.Category
 {
-    class CategoryCreateDto
+    public class CategoryCreateDto
     {
         public string Name { get; set; }
         public string Description { get; set; }

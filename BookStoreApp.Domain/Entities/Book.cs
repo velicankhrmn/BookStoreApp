@@ -17,7 +17,7 @@ namespace BookStoreApp.Domain.Entities
         public string Description { get; set; } = string.Empty;
         public string ISBN { get; set; } = string.Empty;
         public string CoverImageUrl { get; set; } = string.Empty;
-        public int CategoryId { get; set; }
-        public Category Category { get; set; } = new Category();
+        public int? CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }
